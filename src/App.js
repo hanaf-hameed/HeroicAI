@@ -9,12 +9,13 @@ import Tokenomics from './components/Tokenomics';
 import HowToBuy from './components/HowToBuy';
 import Usecases from './components/Usecases';
 import RoadMap from './components/RoadMap';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-     <Navbar/>
-     <Home/>
+    <React.Fragment>
+       <Navbar/>  
+      <Home/> 
      <Features/>
      <Tokenomics/>
      <Usecases/>
@@ -22,7 +23,7 @@ function App() {
      <CloudProvider/>
      <RoadMap/>
      <Footer/>
-    </div>
+    </React.Fragment>
   );
 }
 

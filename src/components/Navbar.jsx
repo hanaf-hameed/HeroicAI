@@ -28,7 +28,7 @@ function Navbar() {
     }, [isOpen]);
 
     return (
-        <div>
+        <>
             <div className='navbar'>
                 <img src={HeroicLogo} className='logo' alt='Logo' />
                 <ul className='navbar-menu'>
@@ -55,7 +55,7 @@ function Navbar() {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

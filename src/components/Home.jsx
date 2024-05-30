@@ -6,9 +6,9 @@ function Home() {
     <section id='Home'>
       <div>
         <div class='waveWrapper'>
-          <div class='glow'></div>{/*  glow effect */}
+          <div class='glow'></div>
           <img src={waveOne} className='waveOne' />
-          {/* top left wave */}
+         
         </div>
         <div className='home-text-body'>
           <p className='heading'>Bridge Your <span className='c-ai'>Cloud and AI </span>Needs With Heroic AI</p>
@@ -25,10 +25,10 @@ function Home() {
           </div>
         </div>
         </div>
-      <div>
+      
         <img  src={logo} className='home-logo'/>
-      </div>
-      {/*right huge logo */}
+      
+      
     </section>
   );
 }
