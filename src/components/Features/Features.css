@@ -275,6 +275,104 @@
   }
 }
 
-/* @media only screen and (min-width: 313px) and (max-width: 450px) {
+@media (min-width:413px) and (max-width: 600px) {
+  #feature{
+margin-top: 50px;
+  }
+  .feature-text-overlap {
+    padding: 20px 0px;
+  }
 
-} */
+  .feature-overlap-t-1 {
+    top: 34%;
+
+    font-size: 55px;
+  }
+  .feature-overlap-t-2 {
+    z-index: 1;
+    font-size: 40px;
+  }
+
+  .overlap-b-text {
+    font-size: 20px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .main-feature-group {
+    gap: 25px 0px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .main-feature {
+    height: fit-content;
+    padding: 40px;
+    width: 80%;
+    z-index: 2;
+  }
+  .cloud-ring {
+    margin-left: -290px;
+    margin-top: -4rem;
+    height: 200px;
+    z-index: 1;
+  }
+
+  .cloud-spiral {
+    
+    margin-left: 130px;
+    margin-top: 58rem;
+
+    height: 220px;
+  }
+
+  .glass-star {
+    position: absolute;
+    /* margin-bottom: -30px;
+      margin-left: 1060px;
+      margin-top: -9rem; */
+
+    height: 300px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .waveTwo {
+    margin-bottom: -30px;
+    margin-left: -100px;
+    margin-top: 27rem;
+
+    height: 220px;
+  }
+
+  .waveThree {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 15px;
+  }
+
+  .main-text {
+    font-size: 15px;
+
+    margin-top: 10px;
+  }
+
+  .sub-feature-group {
+    width: 85%;
+    gap: 45px;
+  }
+
+  .sub-feature {
+    padding: 60px 20px;
+    height: fit-content;
+    font-size: 16px;
+    width: 90%;
+  }
+  .blue,
+  .red {
+    font-size: 16px;
+  }
+}

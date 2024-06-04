@@ -187,3 +187,75 @@
   
   
 }
+
+@media (min-width:413px) and (max-width: 600px) {
+  #howTo {
+    margin-top: 90px;
+  }
+  .how-to-heading {
+    font-size: 22px;
+  }
+  .how-to-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .copy-box {
+   
+    flex-direction: row;
+    width: 93%;
+    
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 5px;
+
+  }
+.copy-icon{
+  height: 19px;;
+}
+  .to {
+    font-size: 22px;
+  }
+
+  .address {
+    font-size: 12px;
+  
+  }
+  .how-to-group {
+   
+    flex-direction: column;
+    
+    gap: 25px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+  }
+
+  .how-feature{
+    height: fit-content;
+    padding: 40px 20px;
+    width: 90%;
+    z-index: 2;
+    
+  }
+
+  .how-heading{
+    font-size: 15px;
+  }
+
+  .how-text{
+    font-size: 14px;
+
+    
+  }
+  .slider-container {
+    width: 95%;
+   
+  }
+  
+}

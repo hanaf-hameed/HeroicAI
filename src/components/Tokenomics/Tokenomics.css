@@ -154,3 +154,51 @@
     
   }
 }
+
+@media (min-width:413px) and (max-width: 600px) {
+  .token-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .token-overlap-t-1 {
+    top: 12%;
+    font-size: 47px;
+  }
+  .token-overlap-t-2 {
+    z-index: 1;
+    font-size: 35px;
+  }
+  .overlap-token-text {
+    font-size: 17px;
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .purple-bar {
+    margin-left: -100px;
+    margin-top: -15rem;
+  }
+  .tokenPC {
+    display: none;
+  }
+
+  .box{
+    display: none;
+  }
+  .tokenMobile {
+    display: block;
+    height: 400px;
+    width: 90%;
+    padding: 0px 20px;
+  }
+
+  .half-bar {
+   
+    
+    margin-left: -180px;
+    margin-top: 18rem;
+   
+    height: 800px;
+    
+  }
+}

@@ -150,4 +150,58 @@
   }
 }
 
+@media (min-width:413px) and (max-width: 600px) {
+  .waveOne {
+    height: 360px;
+    width: 450px;
+    
+  }
+  
+  .glow {
+   
+    height: 350px;
+    width: 450px;
+    
+  }
+  .home-logo {
+    display: none;
+  }
+
+  .home-text-body {
+    margin-left: 40px;
+    width: 90%;
+   
+  }
+
+  .heading,
+  .c-ai {
+    font-size: 26px;
+  }
+
+  .sub-text {
+    
+    width: 95%;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 17px;
+    line-height: 20px;
+    
+  }
+
+  .home-btns {
+    flex-direction: column;
+    width: 45%;
+    gap: 15px 0px;
+  }
+  .telegram-btn {
+    padding: 12px 12px;
+    font-size: 15px;
+  }
+  .launchApp-btn-home {
+    padding: 12px 12px;
+
+    font-size: 15px;
+
+    margin-left: 0px;
+  }
+}
 

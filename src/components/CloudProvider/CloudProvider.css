@@ -138,3 +138,54 @@
     }
   
   }
+
+  @media (min-width:413px) and (max-width: 600px) {
+    .cloud-text-overlap {
+    
+      width: 100%;
+      padding: 20px 0px;
+  
+      
+    }
+    .cloud-overlap-t-1 {
+     
+      top: 18%;
+      left: 50%;
+      
+      font-size: 30px;
+      
+    }
+    .cloud-overlap-t-2 {
+     
+      font-size: 35px;
+      
+    }
+
+    .cloud-group {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+    }
+    
+    .cloud-img {
+     width: 95%;
+      height: 130px;
+      
+    }
+
+    .cloud-star {
+      display: none;
+    }
+    
+    .cloud-square {
+      
+      margin-bottom: -30px;
+      margin-left: 170px;
+      margin-top: 22rem;
+      height: 150px;
+     
+    }
+  
+  }
