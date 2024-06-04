@@ -1,9 +1,9 @@
 import React from 'react';
-import twiterIcon from "../assets/twiter.svg"
-import mediumIcon from "../assets/medium.svg"
-import icon4 from "../assets/icon3.svg"
-import telegramIcon from "../assets/telegram.svg"
-
+import twiterIcon from "../../assets/twiter.svg"
+import mediumIcon from "../../assets/medium.svg"
+import icon4 from "../../assets/icon3.svg"
+import telegramIcon from "../../assets/telegram.svg"
+import "./Footer.css"
 function Footer() {
   return (
     <section id='footer'>

@@ -1,11 +1,12 @@
 import React from 'react'
-import tokenPC from "../assets/Tokenomicschart1.svg"
-import tokenMobile from "../assets/Tokenomicschartmobile1.svg"
-import halfBar from "../assets/sideHalfBar.png"
-import purpleBar from "../assets/Purplebar.png"
-import planet from "../assets/Planettwo.svg"
-import box from "../assets/Box.svg"
-
+import tokenPC from "../../assets/Tokenomicschart1.svg"
+import tokenMobile from "../../assets/Tokenomicschartmobile1.svg"
+import halfBar from "../../assets/sideHalfBar.png"
+import purpleBar from "../../assets/Purplebar.png"
+import planet from "../../assets/Planettwo.svg"
+import box from "../../assets/Box.svg"
+import "./Tokenomics.css"
+ 
 function Tokenomics() {
   return (
     <section id='Tokenomics'>

@@ -1,12 +1,13 @@
 import React from 'react';
-import waveFour from '../assets/Wavefour.svg';
-import spiral from '../assets/Glassthree.png';
-import findMore from '../assets/findmore.svg';
-import coin from '../assets/currency.svg';
-import webCreate from '../assets/webCreation.svg';
-import nodeSetup from '../assets/nodesetup.svg';
-import Optimize from '../assets/optimization.svg';
-import perl from "../assets/Glassfour.png"
+import waveFour from '../../assets/Wavefour.svg';
+import spiral from '../../assets/Glassthree.png';
+import findMore from '../../assets/findmore.svg';
+import coin from '../../assets/currency.svg';
+import webCreate from '../../assets/webCreation.svg';
+import nodeSetup from '../../assets/nodesetup.svg';
+import Optimize from '../../assets/optimization.svg';
+import perl from "../../assets/Glassfour.png"
+import "./Usecases.css"
 
 function Usecases() {
   return (
@@ -14,7 +15,7 @@ function Usecases() {
       <div className='use-text-overlap'>
         <p className='use-overlap-t-1'>Scenarios</p>
         <p className='use-overlap-t-2'>Use Cases</p>
-        <p className='overlap-token-text'>
+        <p className='overlap-use-text'>
           Heroic AI revolutionizes cloud management, offering versatile
           solutions for a wide range of users. Explore practical use cases
           below:
@@ -25,8 +26,8 @@ function Usecases() {
           <div className='use-case'>
             <img src={coin} className='use-case-img' />
             <div className='use-case-text'>
-              <p className='main-heading'>Effortless Cloud Deployment</p>
-              <p className='main-text'>
+              <p className='use-heading'>Effortless Cloud Deployment</p>
+              <p className='use-text'>
                 Easily deploy your applications with Heroic AI, simplifying the
                 process of launching and managing your cloud-based services.
               </p>
@@ -40,8 +41,8 @@ function Usecases() {
           <div className='use-case'>
             <img src={webCreate} className='use-case-img' />
             <div className='use-case-text'>
-              <p className='main-heading'>Website Creation and Management</p>
-              <p className='main-text'>
+              <p className='use-heading'>Website Creation and Management</p>
+              <p className='use-text'>
                 Design your customize website and seamlessly purchase and manage
                 hosting and domain services directly through Heroic AI.
               </p>
@@ -62,8 +63,8 @@ function Usecases() {
           <div className='use-case'>
             <img src={nodeSetup} className='use-case-img' />
             <div className='use-case-text'>
-              <p className='main-heading'>Blockchain Node Setup</p>
-              <p className='main-text'>
+              <p className='use-heading'>Blockchain Node Setup</p>
+              <p className='use-text'>
                 Utilize Heroic AI to effortlessly set up and manage blockchain
                 nodes, simplifying the process for your blockchain projects
               </p>
@@ -77,8 +78,8 @@ function Usecases() {
           <div className='use-case'>
             <img src={Optimize} className='use-case-img' />
             <div className='use-case-text'>
-              <p className='main-heading'>Crypto Mining Optimization</p>
-              <p className='main-text'>
+              <p className='use-heading'>Crypto Mining Optimization</p>
+              <p className='use-text'>
                 Boost mining operations with Heroic AI's cloud computing
                 resources, maximizing profitability and efficiency for you as a
                 crypto miner.

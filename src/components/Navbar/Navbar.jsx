@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import HeroicLogo from '../assets/heroicaiLogo.png';
-import telegram from '../assets/TelegramIcon.svg';
+import HeroicLogo from '../../assets/heroicaiLogo.png';
+import telegram from '../../assets/TelegramIcon.svg';
+import "./Navbar.css"
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +16,6 @@ function Navbar() {
                 window.scrollTo(0, 0); // Scroll to top when menu is open
             }
         };
-
         if (isOpen) {
             window.addEventListener('scroll', handleScroll);
         } else {

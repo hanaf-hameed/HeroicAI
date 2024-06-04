@@ -1,13 +1,14 @@
 import React, { useRef } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import next from '../assets/next.svg';
-import prev from '../assets/prev.svg';
+import next from '../../assets/next.svg';
+import prev from '../../assets/prev.svg';
+import "./RoadMap.css"
 
 function RoadMap() {
   const slides = [
     {
-      stage: 'Stage 1',
+      stage: 'STAGE 1',
       content: [
         'Launch Heroic Al Telegram bot V1',
         'Establishment of the Heroic Al community',
@@ -18,7 +19,7 @@ function RoadMap() {
       ],
     },
     {
-      stage: 'Stage 2',
+      stage: 'STAGE 2',
       content: [
         'Launching Heroic Al beta DApp',
         'Addition of new features in Telegram bot',
@@ -29,7 +30,7 @@ function RoadMap() {
       ],
     },
     {
-      stage: 'Stage 3',
+      stage: 'STAGE 3',
       content: [
         'Official release of Heroic DApp & Telegram bot',
         'Publication of Whitepaper V2',

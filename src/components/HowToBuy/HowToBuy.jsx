@@ -1,16 +1,16 @@
 import React from 'react';
-import copyIcon from '../assets/copy.svg';
-import createWallet from '../assets/CreateWallet.svg';
-import connectWallet from '../assets/ConnectWallet.svg';
-import swap from '../assets/swap.svg';
-import dextool from '../assets/Dextools.svg';
-import CoinGecko from '../assets/Coingecko.svg';
-import CoinMarket from '../assets/CoinMarketCap.svg';
-import waveOne from '../assets/Waveone.svg';
-import redGlass from '../assets/Glassred.png';
-import wavaFour from '../assets/Wavefour.svg';
-import HalfRing from '../assets/Glasscircle.png';
-
+import copyIcon from '../../assets/copy.svg';
+import createWallet from '../../assets/CreateWallet.svg';
+import connectWallet from '../../assets/ConnectWallet.svg';
+import swap from '../../assets/swap.svg';
+import dextool from '../../assets/Dextools.svg';
+import CoinGecko from '../../assets/Coingecko.svg';
+import CoinMarket from '../../assets/CoinMarketCap.svg';
+import waveOne from '../../assets/Waveone.svg';
+import redGlass from '../../assets/Glassred.png';
+import wavaFour from '../../assets/Wavefour.svg';
+import HalfRing from '../../assets/Glasscircle.png';
+import "./HowToBuy.css"
 const services = [
   {
     imgSrc: createWallet,
@@ -48,19 +48,19 @@ function HowToBuy() {
 
         <div className='copy-box'>
           <p className='address'>contractAddress: {contractAddress} </p>
-          <img src={copyIcon} style={{ marginLeft: '10px' }} alt='' />
+          <img src={copyIcon} className='copy-icon' alt='' />
         </div>
       </div>
       <div className='how-to-group'>
         {services.map((feature, index) => (
-          <div className='main-feature' key={index}>
+          <div className='how-feature' key={index}>
             <img
               src={feature.imgSrc}
-              className='main-f-img'
+              className='use-f-img'
               alt={feature.heading}
             />
-            <p className='main-heading'>{feature.heading}</p>
-            <p className='main-text'>{feature.text}</p>
+            <p className='how-heading'>{feature.heading}</p>
+            <p className='how-text'>{feature.text}</p>
             <button id={feature.index} className='how-to-btn'>
               {feature.button}
             </button>

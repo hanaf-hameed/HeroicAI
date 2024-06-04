@@ -1,13 +1,14 @@
 import React from 'react';
-import ai from '../assets/AI.svg';
-import customWeb from '../assets/customWeb.svg';
-import fileMark from '../assets/fileMark.svg';
-import openai from '../assets/openai.svg';
-import waveTwo from '../assets/Wavetwo.svg';
-import waveThree from '../assets/Wavethree.png';
-import cloudRing from '../assets/cloudRing.png';
-import glassStar from '../assets/Glassstar.png';
-import cloudSpiral from '../assets/CloudSpiral.png';
+import ai from '../../assets/AI.svg';
+import customWeb from '../../assets/customWeb.svg';
+import fileMark from '../../assets/fileMark.svg';
+import openai from '../../assets/openai.svg';
+import waveTwo from '../../assets/Wavetwo.svg';
+import waveThree from '../../assets/Wavethree.png';
+import cloudRing from '../../assets/cloudRing.png';
+import glassStar from '../../assets/Glassstar.png';
+import cloudSpiral from '../../assets/CloudSpiral.png';
+import "./Features.css"
 
 const mainFeatures = [
   {
@@ -35,7 +36,7 @@ const mainFeatures = [
 function Features() {
   return (
     <section id='Feature'>
-      <div>
+      <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
         <div className='feature-text-overlap'>
           <p className='feature-overlap-t-1'>Attributes</p>
           <p className='feature-overlap-t-2'>Features</p>

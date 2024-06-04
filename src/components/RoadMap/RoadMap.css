@@ -1,0 +1,205 @@
+/* RoadMap */
+
+#Roadmap {
+  margin-bottom: 70px;
+  color: white;
+
+  width: 100%;
+}
+.swiper {
+  position: relative;
+
+  width: 85%;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+  transition-property: transform;
+}
+
+.swiper-slide {
+  border: 1px solid #00c4f4;
+  border-radius: 15px;
+
+  text-align: left;
+  padding: 60px 30px;
+  color: white;
+
+  justify-content: center;
+}
+
+.radio-btn {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 19px;
+  width: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #7d7d7d7c;
+  width: 100%;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+.content-text {
+  font-size: 13px;
+  width: 100%;
+}
+
+.coming-soon-container {
+  border: 1px solid #00c4f4;
+  border-radius: 15px;
+
+  height: 400px;
+  padding: 50px 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+}
+
+.coming-soon {
+  font-size: 30px;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.stage {
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.road-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: transparent;
+  border-style: none;
+  cursor: pointer;
+}
+
+.road-text-overlap {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.road-overlap-t-1 {
+  position: absolute;
+  top: 4%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 85px;
+  font-weight: bold;
+  opacity: 0.2;
+}
+.road-overlap-t-2 {
+  z-index: 1;
+  color: #00c4f4;
+  font-size: 50px;
+  font-weight: bold;
+}
+.overlap-road-text {
+  font-size: 22px;
+  width: 75%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 412px) {
+  .road-text-overlap {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .road-overlap-t-1 {
+    top: 9%;
+    font-size: 50px;
+  }
+  .road-overlap-t-2 {
+    z-index: 1;
+    font-size: 33px;
+  }
+  .overlap-road-text {
+    margin-top: 10px;
+    font-size: 17px;
+    width: 80%;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .swiper {
+    width: 90%;
+    height: 430px;
+  }
+
+ 
+
+  .swiper-slide {
+    
+  
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.85);
+   
+  }
+
+  .radio-btn {
+    
+    height: 15px;
+    width: 15px;
+  }
+
+  .content {
+   
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+
+  .content-text {
+    font-size: 14px;
+   
+    line-height:22px;
+    
+  }
+
+  
+
+
+  .stage {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .road-btns {
+    gap: 30px;
+    margin-top: 25px;
+  }
+  
+}

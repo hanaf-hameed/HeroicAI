@@ -1,6 +1,7 @@
 import React from 'react';
-import waveOne from '../assets/Waveone.svg';
-import logo from "../assets/Heroiclogo.png"
+import waveOne from '../../assets/Waveone.svg';
+import logo from "../../assets/Heroiclogo.png"
+import "./Home.css"
 function Home() {
   return (
     <section id='Home'>
@@ -21,7 +22,7 @@ function Home() {
           </p>
           <div className='home-btns'
           ><button className='telegram-btn whitepaper'>Telegram Bot<span className='message'>Coming soon</span></button>
-          <button className='launchApp-btn whitepaper'>Launch App<span className='message'>Coming soon</span></button>
+          <button className='launchApp-btn-home whitepaper'>Launch dApp<span className='message'>Coming soon</span></button>
           </div>
         </div>
         </div>

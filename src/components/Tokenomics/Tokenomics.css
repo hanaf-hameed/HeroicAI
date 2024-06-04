@@ -1,0 +1,156 @@
+/* Tokenomics */
+#Tokenomics {
+  margin-top: 50px;
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.overlap-token-text {
+  font-size: 22px;
+  width: 65%;
+  text-align: center;
+}
+
+.tokenPC {
+  height: 350px;
+  width: 60%;
+  margin-top: 20px;
+  border: 1px solid #00c4f4;
+  background: transparent;
+  border-radius: 12px;
+  user-select: none;
+  pointer-events: none;
+}
+
+.purple-bar {
+  position: absolute;
+  margin-bottom: -30px;
+  margin-left: 40px;
+  margin-top: -20rem;
+  align-self: flex-start;
+  height: 150px;
+  display: inline;
+  user-select: none;
+  pointer-events: none;
+  animation: bounce 1s infinite;
+}
+
+.half-bar {
+  position: absolute;
+  margin-bottom: -30px;
+  margin-left: 0px;
+  margin-top: 27rem;
+  align-self: flex-start;
+  height: 940px;
+  display: inline;
+  user-select: none;
+  pointer-events: none;
+}
+
+.box {
+  position: absolute;
+  margin-bottom: -30px;
+  margin-left: 1050px;
+  margin-top: 30rem;
+  align-self: flex-start;
+  height: 150px;
+  display: inline;
+  user-select: none;
+  animation: bounce 1s infinite;
+  pointer-events: none;
+}
+
+.planet {
+  display: none;
+}
+
+.tokenMobile {
+  display: none;
+  border-radius: 10px;
+    margin-top: 20px;
+    border: 1px solid #00c4f4;
+    background: transparent;
+    user-select: none;
+    pointer-events: none;
+}
+
+.token-text-overlap {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.token-overlap-t-1 {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-size: 85px;
+  font-weight: bold;
+  opacity: 0.2;
+}
+.token-overlap-t-2 {
+  z-index: 1;
+  color: #00c4f4;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 412px) {
+  .token-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .token-overlap-t-1 {
+    top: 12%;
+    font-size: 47px;
+  }
+  .token-overlap-t-2 {
+    z-index: 1;
+    font-size: 35px;
+  }
+  .overlap-token-text {
+    font-size: 17px;
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .purple-bar {
+    margin-left: -100px;
+    margin-top: -15rem;
+  }
+  .tokenPC {
+    display: none;
+  }
+
+  .box{
+    display: none;
+  }
+  .tokenMobile {
+    display: block;
+    height: 400px;
+    width: 90%;
+    padding: 0px 20px;
+  }
+
+  .half-bar {
+   
+    
+    margin-left: -180px;
+    margin-top: 18rem;
+   
+    height: 800px;
+    
+  }
+}

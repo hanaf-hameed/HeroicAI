@@ -1,9 +1,10 @@
 import React from 'react';
-import google from '../assets/google.svg';
-import aws from '../assets/aws.svg';
-import chain from '../assets/chain.svg';
-import star from '../assets/cloudStar.png';
-import square from '../assets/cloudSquare.png';
+import google from '../../assets/google.svg';
+import aws from '../../assets/aws.svg';
+import chain from '../../assets/chain.svg';
+import star from '../../assets/cloudStar.png';
+import square from '../../assets/cloudSquare.png';
+import "./CloudProvider.css"
 
 function CloudProvider() {
   return (

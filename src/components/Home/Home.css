@@ -1,0 +1,153 @@
+/* Home Section */
+#Home {
+  display: flex;
+  position: relative;
+}
+
+.waveWrapper {
+  position: relative;
+  z-index: 0;
+}
+
+.waveOne {
+  height: 330px;
+  width: 450px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: -36px;
+  margin-left: -150px;
+  margin-top: -5rem;
+  pointer-events: none;
+  background: transparent;
+  user-select: none;
+  animation: Glow 3s infinite ease-in-out;
+  display: inline;
+}
+
+.glow {
+  position: absolute;
+  height: 340px;
+  width: 490px;
+  margin-bottom: -36px;
+  margin-left: -300px;
+  margin-top: -6rem;
+  z-index: 3;
+  pointer-events: none;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 60px 30px rgba(0, 196, 244, 0.5);
+  filter: blur(40px);
+}
+
+.home-logo {
+  height: 570px;
+  width: 600px;
+  margin-top: 70px;
+  animation: Glow 3s infinite ease-in-out;
+  background: transparent;
+  pointer-events: none;
+  user-select: none;
+}
+
+.home-text-body {
+  position: relative;
+  text-align: left;
+  margin-top: 170px;
+  margin-left: 60px;
+  color: white;
+  width: 90%;
+  z-index: 2;
+}
+
+.heading {
+  font-size: 49px;
+  font-weight: bold;
+}
+
+.c-ai {
+  font-size: 49px;
+  font-weight: bold;
+  color: #00c4f4;
+}
+
+.sub-text {
+  color: #cfcfcf;
+  opacity: 0.8;
+  margin-top: 20px;
+  width: 91%;
+}
+
+.home-btns {
+  display: flex;
+  margin-top: 32px;
+}
+
+.telegram-btn {
+  color: white;
+  background-color: #00c4f4;
+  border-radius: 7px;
+  border-style: none;
+  padding: 15px 25px;
+}
+.launchApp-btn-home {
+  padding: 12px 20px;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #00c4f4;
+  border-radius: 8px;
+  margin-left: 18px;
+  background-color: transparent;
+}
+
+.launchApp-btn-home:hover {
+  background-color: #00c4f4;
+  color: white;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 412px) {
+  .home-logo {
+    display: none;
+  }
+
+  .home-text-body {
+    margin-left: 20px;
+    width: 79%;
+   
+  }
+
+  .heading,
+  .c-ai {
+    font-size: 21px;
+  }
+
+  .sub-text {
+    
+    width: 95%;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 15px;
+    line-height: 20px;
+    
+  }
+
+  .home-btns {
+    flex-direction: column;
+    width: 45%;
+    gap: 11px 0px;
+  }
+  .telegram-btn {
+    padding: 12px 12px;
+    font-size: 13px;
+  }
+  .launchApp-btn-home {
+    padding: 12px 12px;
+
+    font-size: 13px;
+
+    margin-left: 0px;
+  }
+}
+
+
