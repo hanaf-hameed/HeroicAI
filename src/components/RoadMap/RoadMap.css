@@ -130,7 +130,13 @@
   text-align: center;
 }
 
-@media (min-width:0px) and (max-width: 412px) {
+.horizon-spiral{
+  display: none;
+  width:220px;
+  height: 150px;
+}
+
+@media (min-width:0px) and (max-width: 500px) {
   .road-text-overlap {
     width: 100%;
     padding: 20px 0px;
@@ -204,13 +210,13 @@
   
 }
 
-@media (min-width:413px) and (max-width: 600px) {
+@media (min-width:501px) and (max-width: 640px) {
   .road-text-overlap {
     width: 100%;
     padding: 20px 0px;
   }
   .road-overlap-t-1 {
-    top: 9%;
+    top: 14%;
     font-size: 50px;
   }
   .road-overlap-t-2 {
@@ -271,5 +277,91 @@
   .road-btns {
     gap: 30px;
     margin-top: 25px;
+  }
+}
+
+@media (min-width:641px) and (max-width: 767px) {
+  #Roadmap{
+    margin-bottom: 110px;
+  }
+  .road-text-overlap {
+    width: 100%;
+    padding: 20px 0px;
+  }
+  .road-overlap-t-1 {
+    top: 15%;
+    font-size: 80px;
+  }
+  .road-overlap-t-2 {
+    z-index: 1;
+    font-size: 45px;
+  }
+  .overlap-road-text {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 80%;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .swiper {
+    width: 60%;
+    height: 430px;
+  }
+
+ 
+
+  .swiper-slide {
+    
+  
+    padding: 20px 10px;
+    color: rgba(255, 255, 255, 0.85);
+   
+  }
+
+  .radio-btn {
+    
+    height: 15px;
+    width: 15px;
+  }
+
+  .content {
+   
+    width: 100%;
+    margin-bottom: 15px;
+    
+  }
+
+  .content-text {
+    font-size: 14px;
+   
+    line-height:22px;
+    
+  }
+  
+  .stage {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: white;
+  }
+
+  .road-btns {
+    gap: 30px;
+    margin-top: 25px;
+  }
+  .coming-soon-container {
+    
+  
+    height: 430px;
+   
+  }
+
+  .horizon-spiral{
+    display: inline;
+    margin-bottom: -50px;
+      margin-left: 415px;
+      margin-top: -10rem;
   }
 }

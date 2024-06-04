@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import next from '../../assets/next.svg';
 import prev from '../../assets/prev.svg';
+import spiral from "../../assets/horizon-spiral.png";
 import "./RoadMap.css"
 
 function RoadMap() {
@@ -106,6 +107,7 @@ function RoadMap() {
           <img src={next} alt='next' />
         </button>
       </div>
+      <img src={spiral} className='horizon-spiral'/>
     </section>
   );
 }

@@ -107,7 +107,7 @@
 
 /* Media Queries */
 
-@media (min-width:0px) and (max-width: 412px) {
+@media (min-width:0px) and (max-width: 500px) {
   .home-logo {
     display: none;
   }
@@ -150,7 +150,7 @@
   }
 }
 
-@media (min-width:413px) and (max-width: 600px) {
+@media (min-width:501px) and (max-width: 640px) {
   .waveOne {
     height: 360px;
     width: 450px;
@@ -168,36 +168,99 @@
   }
 
   .home-text-body {
-    margin-left: 40px;
+    margin-top: 200px;
+    margin-left: 30px;
     width: 90%;
+
    
   }
 
   .heading,
   .c-ai {
+    width: 80%;
     font-size: 26px;
+    line-height: 45px;
   }
 
   .sub-text {
     
     width: 95%;
     color: rgba(255, 255, 255, 0.897);
-    font-size: 17px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 22px;
     
   }
 
   .home-btns {
-    flex-direction: column;
-    width: 45%;
-    gap: 15px 0px;
+    flex-direction: row;
+    width: 100%;
+    gap: 0px 40px;
   }
   .telegram-btn {
-    padding: 12px 12px;
+    padding: 15px 30px;
+    font-size: 16px;
+  }
+  .launchApp-btn-home {
+    padding: 15px 30px;
+
+    font-size: 16px;
+
+    margin-left: 0px;
+  }
+}
+
+@media (min-width:641px) and (max-width: 767px) {
+  .waveOne {
+    height: 360px;
+    width: 450px;
+    
+  }
+  
+  .glow {
+   
+    height: 350px;
+    width: 450px;
+    
+  }
+  .home-logo {
+    display: none;
+  }
+
+  .home-text-body {
+    margin-top: 200px;
+    margin-left: 30px;
+    width: 90%;
+
+   
+  }
+
+  .heading,
+  .c-ai {
+    width: 65%;
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .sub-text {
+    
+    width: 95%;
+    color: rgba(255, 255, 255, 0.897);
+    font-size: 15px;
+    line-height: 22px;
+    
+  }
+
+  .home-btns {
+    flex-direction: row;
+    width: 100%;
+    gap: 0px 20px;
+  }
+  .telegram-btn {
+    padding: 15px 25px;
     font-size: 15px;
   }
   .launchApp-btn-home {
-    padding: 12px 12px;
+    padding: 15px 25px;
 
     font-size: 15px;
 

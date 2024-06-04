@@ -144,7 +144,7 @@
     margin-top: 7px;
   }
 
-  @media (min-width:0px) and (max-width: 412px) {
+@media (min-width:0px) and (max-width: 500px) {
 
     
   .use-text-overlap {
@@ -267,7 +267,7 @@ justify-content: center;
   
   }
   
-  @media (min-width:413px) and (max-width: 600px) {
+  @media (min-width:501px) and (max-width: 640px) {
       
   .use-text-overlap {
     
@@ -353,14 +353,14 @@ justify-content: center;
   }
   .find-more-container {
     gap: 10px;
-    width: 60%;
+    width: 35%;
     align-self: flex-start;
     margin-left: 10px;
   }
   
   .f-line {
     height: 1px;
-    width: 230px;
+    width: 450px;
     border: 1px solid #9c9999;
     opacity: 0.5;
   }
@@ -374,7 +374,7 @@ justify-content: center;
   }
   
   .h-line {
-    width: 120px;
+    width: 230px;
     border: 1px solid #9c9999;
     opacity: 0.5;
   }
@@ -387,3 +387,124 @@ justify-content: center;
     display: none;
   }
   }
+
+  @media (min-width:641px) and (max-width: 767px) {
+      
+    .use-text-overlap {
+      
+      padding: 20px 0px;
+    }
+    
+    .use-overlap-t-1 {
+      top: 16%;
+  
+      font-size: 80px;
+    }
+  
+    .use-overlap-t-2 {
+      z-index: 1;
+      font-size: 45px;
+    }
+  
+    .overlap-use-text{
+      font-size: 17px;
+      width: 83%;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: normal;
+    }
+  
+    .use-cases-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      gap: 40px;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      /* border: 1px solid palevioletred; */
+    }
+    
+    .first-half {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 95%;
+      gap: 30px;
+    }
+    
+    .use-case {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      /* border: 1px solid white; */
+      width: 90%;
+    }
+    .use-heading {
+      font-size: 18px;
+      font-weight: bold;
+      width: 85%;
+    }
+    
+    .use-text {
+      width: 87%;
+      font-size: 15px;
+      line-height: 22px;
+      margin-top: 7px;
+    }
+    .use-case-text {
+      display: flex;
+      flex-direction: column;
+  justify-content: center;
+      align-items: center;
+      text-align: left;
+      gap: 20px;
+    }
+    
+    .use-case-img {
+      margin-bottom: 120px;
+      margin-right: 10px;
+      user-select: none;
+      pointer-events: none;
+      
+      align-self: flex-start;
+    }
+    .find-more-container {
+      gap: 10px;
+      width: 35%;
+      align-self: flex-start;
+      margin-left: 30px;
+    }
+    
+    .f-line {
+      height: 1px;
+      width: 550px;
+      border: 1px solid #9c9999;
+      opacity: 0.5;
+    }
+    
+    .h-lines {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 0px;
+    }
+    
+    .h-line {
+      width: 270px;
+      border: 1px solid #9c9999;
+      opacity: 0.5;
+    }
+    
+    .perl {
+     display: none;
+    }
+    
+    .perl-img {
+      display: none;
+    }
+    }

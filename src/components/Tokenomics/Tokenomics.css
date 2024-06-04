@@ -107,7 +107,7 @@
 }
 
 /* Media Queries */
-@media (min-width:0px) and (max-width: 412px) {
+@media (min-width:0px) and (max-width: 500px) {
   .token-text-overlap {
     padding: 20px 0px;
   }
@@ -155,7 +155,7 @@
   }
 }
 
-@media (min-width:413px) and (max-width: 600px) {
+@media (min-width:501px) and (max-width: 640px) {
   .token-text-overlap {
     padding: 20px 0px;
   }
@@ -199,6 +199,58 @@
     margin-top: 18rem;
    
     height: 800px;
+    
+  }
+}
+
+@media (min-width:641px) and (max-width: 767px) {
+
+  #Tokenomics {
+    margin-top: 120px;
+  }
+  .token-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .token-overlap-t-1 {
+    top: 14%;
+    font-size: 80px;
+  }
+  .token-overlap-t-2 {
+    z-index: 1;
+    font-size: 45px;
+  }
+  .overlap-token-text {
+    font-size: 17px;
+    width: 75%;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .purple-bar {
+    margin-left: -70px;
+    margin-top: -27rem;
+  }
+  .tokenPC {
+    display: none;
+  }
+
+  .box{
+    display: none;
+  }
+  .tokenMobile {
+    display: block;
+    height: 350px;
+    width: 80%;
+    padding: 0px 20px;
+  }
+
+  .half-bar {
+   
+    
+    margin-left: -50px;
+    margin-top: 18rem;
+   
+    height: 700px;
     
   }
 }

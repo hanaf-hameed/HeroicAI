@@ -8,7 +8,7 @@ import CoinGecko from '../../assets/Coingecko.svg';
 import CoinMarket from '../../assets/CoinMarketCap.svg';
 import waveOne from '../../assets/Waveone.svg';
 import redGlass from '../../assets/Glassred.png';
-import wavaFour from '../../assets/Wavefour.svg';
+import waveFour from '../../assets/Wavefour.svg';
 import HalfRing from '../../assets/Glasscircle.png';
 import "./HowToBuy.css"
 const services = [
@@ -52,6 +52,9 @@ function HowToBuy() {
         </div>
       </div>
       <div className='how-to-group'>
+        <img src={HalfRing} className='half-ring'/>
+        <img src={waveFour} className='waveFour'/>
+        <img src={redGlass} className='red-glass'/>
         {services.map((feature, index) => (
           <div className='how-feature' key={index}>
             <img
@@ -67,6 +70,7 @@ function HowToBuy() {
           </div>
         ))}
       </div>
+      <img src={waveOne} className='howWave'/>
       <div className='slider-container'>
         <div className='slider'>
          <div className="slide">

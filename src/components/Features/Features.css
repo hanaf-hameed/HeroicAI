@@ -29,7 +29,7 @@
   border-radius: 9px;
   padding: 50px 20px;
   height: 330px;
-  width: 100%;
+  width: 40%;
   background-color: rgba(3, 11, 21, 0.5);
   backdrop-filter: blur(5px);
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
@@ -176,7 +176,7 @@
 
 /* Media Queries */
 
-@media (min-width:0px) and (max-width: 412px) {
+@media (min-width: 0px) and (max-width: 500px) {
   .feature-text-overlap {
     padding: 20px 0px;
   }
@@ -205,8 +205,8 @@
   }
 
   .main-feature {
-    height: fit-content;
-    padding: 40px;
+    height: 350px;
+    padding: 60px 40px;
     width: 90%;
     z-index: 2;
   }
@@ -218,7 +218,6 @@
   }
 
   .cloud-spiral {
-    
     margin-left: 130px;
     margin-top: 58rem;
 
@@ -249,13 +248,119 @@
   }
 
   .main-heading {
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .main-text {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 10px;
+  }
+
+  .sub-feature-group {
+    width: 85%;
+    gap: 45px;
+  }
+
+  .sub-feature {
+    padding: 60px 20px;
+    height: fit-content;
+    font-size: 16px;
+    line-height: 22px;
+    width: 90%;
+    opacity: 0.8;
+  }
+  .blue,
+  .red {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 640px) {
+  #Feature {
+    margin-top: 96px;
+  }
+  .feature-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .feature-overlap-t-1 {
+    top: 34%;
+
+    font-size: 55px;
+  }
+  .feature-overlap-t-2 {
+    z-index: 1;
+    font-size: 36px;
+  }
+
+  .overlap-b-text {
+    font-size: 17px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-feature-group {
+    gap: 25px 0px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .main-feature {
+    height: 350px;
+    padding: 80px 40px;
+    width: 80%;
+    z-index: 2;
+  }
+  .cloud-ring {
+    margin-left: -400px;
+    margin-top: -4rem;
+    height: 200px;
+    z-index: 1;
+  }
+
+  .cloud-spiral {
+    margin-left: 230px;
+    margin-top: 92rem;
+
+    height: 220px;
+  }
+
+  .glass-star {
+    position: absolute;
+    /* margin-bottom: -30px;
+      margin-left: 1060px;
+      margin-top: -9rem; */
+
+    height: 300px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .waveTwo {
+    margin-bottom: -30px;
+    margin-left: -100px;
+    margin-top: 27rem;
+
+    height: 220px;
+  }
+
+  .waveThree {
+    display: none;
+  }
+
+  .main-heading {
+    font-size: 17px;
+    margin-top: 10px;
   }
 
   .main-text {
     font-size: 15px;
-
+    line-height: 20px;
     margin-top: 10px;
+    word-spacing: 2px;
   }
 
   .sub-feature-group {
@@ -275,9 +380,9 @@
   }
 }
 
-@media (min-width:413px) and (max-width: 600px) {
-  #feature{
-margin-top: 50px;
+@media (min-width: 641px) and (max-width: 767px) {
+  #Feature {
+    margin-top: 96px;
   }
   .feature-text-overlap {
     padding: 20px 0px;
@@ -286,43 +391,48 @@ margin-top: 50px;
   .feature-overlap-t-1 {
     top: 34%;
 
-    font-size: 55px;
+    font-size: 80px;
   }
   .feature-overlap-t-2 {
     z-index: 1;
-    font-size: 40px;
+    font-size: 45px;
   }
 
   .overlap-b-text {
-    font-size: 20px;
-    width: 80%;
+    font-size: 19px;
+    width: 100%;
     text-align: center;
   }
 
   .main-feature-group {
-    gap: 25px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
     width: 90%;
     margin-top: 40px;
     margin-bottom: 50px;
   }
 
   .main-feature {
-    height: fit-content;
-    padding: 40px;
-    width: 80%;
+    height: 350px;
+    padding: 50px 40px;
+    width: 47%;
     z-index: 2;
+    background-color: transparent;
   }
   .cloud-ring {
-    margin-left: -290px;
+    margin-left: -600px;
     margin-top: -4rem;
     height: 200px;
     z-index: 1;
   }
 
   .cloud-spiral {
-    
-    margin-left: 130px;
-    margin-top: 58rem;
+    margin-left: 230px;
+    margin-top: -5rem;
 
     height: 220px;
   }
@@ -333,35 +443,41 @@ margin-top: 50px;
       margin-left: 1060px;
       margin-top: -9rem; */
 
-    height: 300px;
+    height: 380px;
     pointer-events: none;
     user-select: none;
   }
 
   .waveTwo {
     margin-bottom: -30px;
-    margin-left: -100px;
+    margin-left: -130px;
     margin-top: 27rem;
 
     height: 220px;
   }
 
   .waveThree {
-    display: none;
+    margin-bottom: -30px;
+    margin-left: 230px;
+    margin-top: -25rem;
+
+    height: 220px;
   }
 
   .main-heading {
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 10px;
   }
 
   .main-text {
     font-size: 15px;
-
+    line-height: 20px;
     margin-top: 10px;
+    word-spacing: 2px;
   }
 
   .sub-feature-group {
-    width: 85%;
+    width: 50%;
     gap: 45px;
   }
 
@@ -369,7 +485,7 @@ margin-top: 50px;
     padding: 60px 20px;
     height: fit-content;
     font-size: 16px;
-    width: 90%;
+    width: 100%;
   }
   .blue,
   .red {

@@ -10,12 +10,14 @@
 .how-to-heading {
   font-size: 60px;
   font-weight: bold;
+  z-index: 3;
 }
 .how-to-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
 .copy-box {
@@ -44,6 +46,7 @@
 
 .address {
   font-size: 14px;
+  color: #7D7D7D;
 }
 .how-to-btn {
   margin-top: 20px;
@@ -60,8 +63,8 @@
   padding: 50px 20px;
   height: 330px;
   width: 100%;
-  background-color: rgba(3, 11, 21, 0.5);
-  backdrop-filter: blur(5px);
+  background-color: rgba(3, 11, 21, 1);
+  
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
 }
 .how-heading{
@@ -85,6 +88,10 @@
   border-radius: 7px;
   padding: 20px 0;
   height: 117px;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.3);
+  z-index: 2;
 }
 
 .slider {
@@ -92,6 +99,7 @@
   display: flex;
   width: calc(300px * 6);
   animation: slide 5s linear infinite;
+  
 }
 
 .slide {
@@ -112,14 +120,75 @@
   height:20px;
   align-self: flex-end;
 }
+.howWave{
+  display: none;
+  height: 250px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: -36px;
+  margin-left: -600px;
+  margin-top: 60rem;
+  pointer-events: none;
+  background: transparent;
+  user-select: none;
+  animation: Glow 3s infinite ease-in-out;
+ 
+}
 
+.half-ring{
+  display: none;
+  height: 800px;
+  width: 500px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: -36px;
+  margin-left: -310px;
+  margin-top: -27rem;
+  pointer-events: none;
+  background: transparent;
+  user-select: none;
+  
+}
 
-@media (min-width:0px) and (max-width: 412px) {
+.waveFour{
+  display: none;
+  height: 400px;
+  width: 380px;
+   background-color: transparent;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: -36px;
+  margin-left: 250px;
+  margin-top: -70rem;
+  pointer-events: none;
+ 
+  user-select: none;
+ 
+  
+}
+
+.red-glass{
+  display: none;
+  height: 250px;
+  width: 300px;
+  position: absolute;
+  z-index: 1;
+  margin-bottom: -36px;
+  margin-left: -600px;
+  margin-top: 85rem;
+  pointer-events: none;
+  background: transparent;
+  user-select: none;
+ 
+}
+
+@media (min-width:0px) and (max-width: 500px) {
   #howTo {
     margin-top: 90px;
   }
   .how-to-heading {
-    font-size: 22px;
+    font-size: 23px;
   }
   .how-to-text {
     display: flex;
@@ -144,11 +213,12 @@
   height: 19px;;
 }
   .to {
-    font-size: 22px;
+    font-size: 23px;
   }
 
   .address {
     font-size: 12px;
+    color: #7D7D7D;
   
   }
   .how-to-group {
@@ -176,7 +246,7 @@
 
   .how-text{
     font-size: 14px;
-
+    line-height: 19px;
     
   }
   .slider-container {
@@ -188,12 +258,12 @@
   
 }
 
-@media (min-width:413px) and (max-width: 600px) {
+@media (min-width:501px) and (max-width: 640px) {
   #howTo {
-    margin-top: 90px;
+    margin-top: 80px;
   }
   .how-to-heading {
-    font-size: 22px;
+    font-size: 32px;
   }
   .how-to-text {
     display: flex;
@@ -212,50 +282,139 @@
    justify-content: center;
    align-items: center;
    gap: 5px;
+   width: 100%;
 
   }
 .copy-icon{
   height: 19px;;
 }
   .to {
-    font-size: 22px;
+    font-size: 32px;
   }
 
   .address {
     font-size: 12px;
-  
+    width: 100%;
+    color: #7D7D7D;
   }
   .how-to-group {
    
     flex-direction: column;
     
     gap: 25px;
-    width: 90%;
+    width: 80%;
     margin-top: 40px;
     margin-bottom: 50px;
     
   }
 
   .how-feature{
-    height: fit-content;
-    padding: 40px 20px;
+    height: 350px;
+    padding: 60px 20px;
     width: 90%;
     z-index: 2;
     
   }
 
   .how-heading{
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .how-text{
     font-size: 14px;
-
+line-height: 22px;
     
   }
   .slider-container {
     width: 95%;
    
+  }
+  
+}
+
+@media (min-width:641px) and (max-width: 767px) {
+  #howTo {
+    margin-top: 80px;
+  }
+  .how-to-heading {
+    font-size: 47px;
+  }
+  .to {
+    font-size: 47px;
+  }
+  .how-to-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .copy-box {
+   
+    flex-direction: row;
+    width: 93%;
+    
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   width: 100%;
+
+  }
+.copy-icon{
+  height: 19px;;
+}
+  
+
+  .address {
+    font-size: 14px;
+    width: 100%;
+    color: #7D7D7D;
+  }
+  .how-to-group {
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 95%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+  }
+
+  .how-feature{
+    height: 380px;
+    padding: 70px 20px;
+    width: 48%;
+    z-index: 2;
+    
+  }
+
+  .how-heading{
+    font-size: 17px;
+  }
+
+  .how-text{
+    font-size: 15px;
+line-height: 22px;
+    
+  }
+  .slider-container {
+    width: 85%;
+   
+  }
+
+  .howWave{
+    display: inline;
+  }
+
+  .half-ring{
+    display: inline;
+  }
+
+  .waveFour{
+    display: inline;
   }
   
 }
