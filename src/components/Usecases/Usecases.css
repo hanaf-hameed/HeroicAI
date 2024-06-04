@@ -144,7 +144,7 @@
     margin-top: 7px;
   }
 
-  @media only screen and (max-width: 412px) {
+  @media (min-width:0px) and (max-width: 412px) {
 
     
   .use-text-overlap {

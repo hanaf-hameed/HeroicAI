@@ -88,7 +88,7 @@
     user-select: none;
   }
 
-  @media only screen and (max-width: 412px) {
+  @media (min-width:0px) and (max-width: 412px) {
     .cloud-text-overlap {
     
       width: 100%;

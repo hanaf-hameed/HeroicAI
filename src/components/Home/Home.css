@@ -107,7 +107,7 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 412px) {
+@media (min-width:0px) and (max-width: 412px) {
   .home-logo {
     display: none;
   }
