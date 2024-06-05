@@ -66,10 +66,10 @@ function Footer() {
               </div>
             </div>
             <div className='icons'>
-              <img className='bottom-icon' src={twiterIcon} alt='' />
-              <img className='bottom-icon' src={telegramIcon} alt='' />
-              <img className='bottom-icon' src={mediumIcon} alt='' />
-              <img className='bottom-icon' src={icon4} alt='' />
+             <a href='https://x.com/Heroic_AI' target='blank'> <img className='bottom-icon' src={twiterIcon} alt=''/></a>
+           <a href='https://t.me/Heroic_Ai' target='blank'>  <img className='bottom-icon' src={telegramIcon} alt='' /> </a> 
+           <a href='https://heroicai.medium.com/' target='blank'>  <img className='bottom-icon' src={mediumIcon} alt='' /> </a> 
+           <a>    <img className='bottom-icon' src={icon4} alt='' /> </a> 
             </div>
           </div>
         </div>

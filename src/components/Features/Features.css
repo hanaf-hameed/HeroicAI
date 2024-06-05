@@ -165,7 +165,7 @@
   margin: 0;
   font-size: 85px;
   font-weight: bold;
-  opacity: 0.2;
+  opacity: 0.1;
 }
 .feature-overlap-t-2 {
   z-index: 1;
@@ -182,13 +182,13 @@
   }
 
   .feature-overlap-t-1 {
-    top: 34%;
+    top: 30%;
 
-    font-size: 47px;
+    font-size: 50px;
   }
   .feature-overlap-t-2 {
     z-index: 1;
-    font-size: 35px;
+    font-size: 33px;
   }
 
   .overlap-b-text {
@@ -490,5 +490,238 @@
   .blue,
   .red {
     font-size: 16px;
+  }
+}
+
+@media (min-width:768px) and (max-width: 964px) {
+  #Feature {
+    margin-top: 96px;
+  }
+  .feature-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .feature-overlap-t-1 {
+    top: 34%;
+
+    font-size: 80px;
+  }
+  .feature-overlap-t-2 {
+    z-index: 1;
+    font-size: 45px;
+  }
+
+  .overlap-b-text {
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-feature-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .main-feature {
+    height: 350px;
+    padding: 50px 40px;
+    width: 47%;
+    z-index: 2;
+    background-color: transparent;
+  }
+  .cloud-ring {
+    margin-left: -600px;
+    margin-top: -4rem;
+    height: 200px;
+    z-index: 1;
+  }
+
+  .cloud-spiral {
+    margin-left: 580px;
+    margin-top: -5rem;
+
+    height: 220px;
+  }
+
+  .glass-star {
+    position: absolute;
+    /* margin-bottom: -30px;
+      margin-left: 1060px;
+      margin-top: -9rem; */
+
+    height: 380px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .waveTwo {
+    margin-bottom: -30px;
+    margin-left: -130px;
+    margin-top: 27rem;
+
+    height: 220px;
+  }
+
+  .waveThree {
+    margin-bottom: -30px;
+    margin-left: 330px;
+    margin-top: -23rem;
+
+    height: 220px;
+  }
+
+  .main-heading {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .main-text {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+    word-spacing: 2px;
+  }
+
+  .sub-feature-group {
+    width: 50%;
+    gap: 45px;
+  }
+
+  .sub-feature {
+    padding: 60px 20px;
+    height: fit-content;
+    font-size: 16px;
+    width: 100%;
+  }
+  .blue,
+  .red {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (min-width:965px){
+  #Feature {
+    margin-top: 96px;
+  }
+  .feature-text-overlap {
+    padding: 20px 0px;
+  }
+
+  .feature-overlap-t-1 {
+    top: 34%;
+
+    font-size: 80px;
+  }
+  .feature-overlap-t-2 {
+    z-index: 1;
+    font-size: 45px;
+  }
+
+  .overlap-b-text {
+    font-size: 19px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .main-feature-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+
+  .main-feature {
+    padding: 45px 20px;
+  height: 310px;
+ width: 265px;
+    z-index: 2;
+    background-color: transparent;
+  }
+  .cloud-ring {
+    margin-left: 0px;
+    left: 0;
+    margin-top: -4rem;
+    height: 200px;
+    z-index: 1;
+  }
+
+  .cloud-spiral {
+    margin-left: 0px;
+    margin-top: -5rem;
+right: 10%;
+    height: 220px;
+  }
+
+  .glass-star {
+    position: absolute;
+    /* margin-bottom: -30px;
+      margin-left: 1060px;
+      margin-top: -9rem; */
+
+    height: 380px;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  .waveTwo {
+    margin-bottom: -30px;
+    margin-left: 0px;
+    left: 5%;
+    margin-top: 23rem;
+
+    height: 220px;
+  }
+
+  .waveThree {
+    margin-bottom: -30px;
+    margin-left: 0px;
+    right: 12%;
+    margin-top: -20rem;
+
+    height: 220px;
+  }
+
+  .main-heading {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+
+  .main-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    word-spacing: 2px;
+  }
+
+  .sub-feature-group {
+    width: 30%;
+    gap: 45px;
+  }
+
+  .sub-feature {
+    padding: 60px 20px;
+    height: fit-content;
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    
+  }
+  .blue,
+  .red {
+    font-size: 18px;
+   
   }
 }

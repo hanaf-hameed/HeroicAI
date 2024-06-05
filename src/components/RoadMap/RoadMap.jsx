@@ -58,6 +58,11 @@ function RoadMap() {
       slidesPerView: 1,
       spaceBetween: 30,
     },
+
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
     
     1025: {
       slidesPerView: 3,

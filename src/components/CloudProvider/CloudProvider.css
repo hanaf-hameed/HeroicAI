@@ -45,7 +45,7 @@
     margin: 0;
     font-size: 85px;
     font-weight: bold;
-    opacity: 0.2;
+    opacity: 0.1;
   }
   .cloud-overlap-t-2 {
     z-index: 1;
@@ -68,7 +68,7 @@
   .cloud-star {
     position: absolute;
     margin-bottom: -30px;
-    margin-left: -190px;
+    left: 0;
     margin-top: -13rem;
     align-self: flex-start; 
     height: 290px;
@@ -80,7 +80,7 @@
   .cloud-square {
     position: absolute;
     margin-bottom: -30px;
-    margin-left: 800px;
+    right: 0;
     margin-top: -10rem;
     align-self: last baseline; 
     display: inline;
@@ -98,15 +98,15 @@
     }
     .cloud-overlap-t-1 {
      
-      top: 18%;
+      top: 20%;
       left: 50%;
       
-      font-size: 30px;
+      font-size: 45px;
       
     }
     .cloud-overlap-t-2 {
      
-      font-size: 35px;
+      font-size: 30px;
       
     }
 
@@ -131,7 +131,7 @@
     .cloud-square {
       
       margin-bottom: -30px;
-      margin-left: 170px;
+      right: 0;
       margin-top: 22rem;
       height: 150px;
      
@@ -182,7 +182,7 @@
     .cloud-square {
       
       margin-bottom: -30px;
-      margin-left: 240px;
+      right: 0;
       margin-top: 22rem;
       height: 190px;
      
@@ -231,7 +231,7 @@
     .cloud-star {
       display: block;
       margin-bottom: -30px;
-      margin-left: 0px;
+      left: 0;
       margin-top: -10rem;
     z-index: 6;
     height: 190px;
@@ -240,10 +240,128 @@
     .cloud-square {
       
       margin-bottom: -30px;
-      margin-left: 390px;
+      right: 0;
       margin-top: 5rem;
       height: 190px;
      
     }
   
+  }
+  @media (min-width:768px) and (max-width: 964px) {
+    .cloud-text-overlap {
+    
+      width: 100%;
+      padding: 20px 0px;
+  
+      
+    }
+    .cloud-overlap-t-1 {
+     
+      top: 20%;
+      left: 53%;
+      width: 60%;
+      font-size: 80px;
+      
+    }
+    .cloud-overlap-t-2 {
+     
+      font-size: 45px;
+      
+    }
+
+    .cloud-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      width: 100%;
+     
+    }
+    
+    .cloud-img {
+     width: 32%;
+      height: 130px;
+      
+    }
+
+    .cloud-star {
+      display: block;
+      margin-bottom: -30px;
+      left: 0;
+      margin-top: -10rem;
+    z-index: 6;
+    height: 190px;
+    }
+    
+    .cloud-square {
+      
+      margin-bottom: -30px;
+      right: 0;
+      margin-top: 7rem;
+      height: 190px;
+     
+    }
+  
+  }
+
+  @media screen and (min-width:965px){
+    #cloud-provider{
+      margin-top: 96px;
+    }
+    .cloud-text-overlap {
+    
+      width: 100%;
+      padding: 20px 0px;
+  
+      
+    }
+    .cloud-overlap-t-1 {
+     
+      top: 20%;
+      left: 50%;
+      
+      font-size: 80px;
+      
+    }
+    .cloud-overlap-t-2 {
+     
+      font-size: 45px;
+      
+    }
+
+    .cloud-group {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      width: 100%;
+     
+    }
+    
+    .cloud-img {
+     width: 32%;
+      height: 130px;
+      
+    }
+
+    .cloud-star {
+      display: inline;
+      margin-bottom: -30px;
+
+      left: 0;
+      margin-top: -10rem;
+    z-index: 6;
+    height: 230px;
+    }
+    
+    .cloud-square {
+      
+      margin-bottom: -30px;
+      right: 0;
+      margin-top: 7rem;
+      height: 260px;
+     
+    }
   }

@@ -7,6 +7,7 @@ import webCreate from '../../assets/webCreation.svg';
 import nodeSetup from '../../assets/nodesetup.svg';
 import Optimize from '../../assets/optimization.svg';
 import perl from "../../assets/Glassfour.png"
+
 import "./Usecases.css"
 
 function Usecases() {
@@ -53,8 +54,10 @@ function Usecases() {
             </div>
           </div>
         </div>
+        <img src={spiral} className='use-spiral'/>
         <div className='perl'></div>
         <img src={perl} className='perl-img'/>
+        <img src={waveFour} className='use-wave'/>
         <div className='h-lines'>
           <div className='h-line'></div>
           <div className='h-line'></div>

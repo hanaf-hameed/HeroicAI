@@ -55,6 +55,7 @@
   border-radius: 7px;
   padding: 10px 20px;
   border-style: none;
+  cursor: pointer;
 }
 
 .how-feature{
@@ -126,8 +127,8 @@
   width: 300px;
   position: absolute;
   z-index: 1;
-  margin-bottom: -36px;
-  margin-left: -600px;
+  left: 0;
+  margin-left: -7rem;
   margin-top: 60rem;
   pointer-events: none;
   background: transparent;
@@ -143,7 +144,7 @@
   position: absolute;
   z-index: 1;
   margin-bottom: -36px;
-  margin-left: -310px;
+  margin-left: 0px;
   margin-top: -27rem;
   pointer-events: none;
   background: transparent;
@@ -159,8 +160,9 @@
   position: absolute;
   z-index: 1;
   margin-bottom: -36px;
-  margin-left: 250px;
-  margin-top: -70rem;
+  
+  right: 0;
+  margin-top: -40rem;
   pointer-events: none;
  
   user-select: none;
@@ -175,11 +177,12 @@
   position: absolute;
   z-index: 1;
   margin-bottom: -36px;
-  margin-left: -600px;
-  margin-top: 85rem;
+  right: 0;
+  margin-top: 75rem;
   pointer-events: none;
   background: transparent;
   user-select: none;
+  animation: Glow 3s infinite ease-in-out;
  
 }
 
@@ -188,7 +191,7 @@
     margin-top: 90px;
   }
   .how-to-heading {
-    font-size: 23px;
+    font-size: 27px;
   }
   .how-to-text {
     display: flex;
@@ -213,7 +216,7 @@
   height: 19px;;
 }
   .to {
-    font-size: 23px;
+    font-size: 27px;
   }
 
   .address {
@@ -407,14 +410,204 @@ line-height: 22px;
 
   .howWave{
     display: inline;
+    left: 0;
   }
 
   .half-ring{
     display: inline;
+    left: 0;
+  }
+
+  .waveFour{
+    display: inline;
+    right: 0;
+  }
+  
+}
+
+@media (min-width:768px) and (max-width: 964px) {
+  #howTo {
+    margin-top: 80px;
+  }
+  .how-to-heading {
+    font-size: 47px;
+  }
+  .to {
+    font-size: 47px;
+  }
+  .how-to-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .copy-box {
+   
+    flex-direction: row;
+    width: 93%;
+    
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   width: 100%;
+
+  }
+.copy-icon{
+  height: 19px;;
+}
+  
+
+  .address {
+    font-size: 14px;
+    width: 100%;
+    color: #7D7D7D;
+  }
+  .how-to-group {
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+  }
+
+  .how-feature{
+    height: 380px;
+    padding: 70px 20px;
+    width: 48%;
+    z-index: 2;
+    
+  }
+
+  .how-heading{
+    font-size: 17px;
+  }
+
+  .how-text{
+    font-size: 15px;
+line-height: 22px;
+    
+  }
+  .slider-container {
+    width: 85%;
+   
+  }
+
+  .howWave{
+    display: inline;
+  }
+
+  .half-ring{
+    display: inline;
+    left: 0;
   }
 
   .waveFour{
     display: inline;
   }
+
+  .red-glass{
+    display: inline;
+  }
+}
+
+@media screen and (min-width:965px){
+  #howTo {
+    margin-top: 80px;
+  }
+  .how-to-heading {
+    font-size: 50px;
+  }
+  .to {
+    font-size: 50px;
+  }
+  .how-to-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .copy-box {
+   
+    flex-direction: row;
+    width: 93%;
+    
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   gap: 15px;
+   width: 100%;
+
+  }
+.copy-icon{
+  height: 19px;;
+}
   
+
+  .address {
+    font-size: 15px;
+    width: 100%;
+    color: #7D7D7D;
+  }
+  .how-to-group {
+   
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    
+  }
+
+  .how-feature{
+    height: 370px;
+    padding: 70px 20px;
+    width: 310px;
+    z-index: 2;
+    
+  }
+
+  .how-heading{
+    font-size: 17px;
+  }
+
+  .how-text{
+    font-size: 14px;
+line-height: 22px;
+    
+  }
+  .slider-container {
+    width: 85%;
+   
+  }
+
+  .howWave{
+    display: inline;
+    margin-top: 40rem;
+  }
+
+  .half-ring{
+    height: 700px;
+    width: 300px;
+    margin-top: -10rem;
+    display: inline;
+    left: 0;
+  }
+
+  .waveFour{
+    display: inline;
+  }
+
+  .red-glass{
+    display: inline;
+    margin-top: 50rem;
+  }
 }

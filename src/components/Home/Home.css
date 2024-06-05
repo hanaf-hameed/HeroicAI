@@ -268,3 +268,138 @@
   }
 }
 
+
+@media (min-width:768px) and (max-width: 964px) {
+  .waveOne {
+    height: 360px;
+    width: 450px;
+    
+  }
+  
+  .glow {
+   
+    height: 350px;
+    width: 450px;
+    
+  }
+  .home-logo {
+    display: inline;
+    height: 40vh;
+    width: 400px;
+    
+  }
+
+  .home-text-body {
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 93%;
+  }
+
+  .heading,
+  .c-ai {
+    width: 90%;
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .sub-text {
+    
+    width: 85%;
+    color: #cfcfcf;
+    font-size: 15px;
+    line-height: 22px;
+    
+  }
+
+  .home-btns {
+    flex-direction: row;
+    width: 100%;
+    gap: 0px 20px;
+  }
+  .telegram-btn {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+  .launchApp-btn-home {
+    padding: 15px 25px;
+
+    font-size: 15px;
+
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width:965px){
+   .waveOne {
+    height: 360px;
+    width: 450px;
+    
+  }
+  
+  .glow {
+   
+    height: 350px;
+    width: 450px;
+    
+  }
+  .home-logo {
+    display: inline;
+    height: 90vh;
+    width: 700px;
+    
+  }
+
+  .home-text-body {
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 93%;
+  }
+
+  .heading,
+  .c-ai {
+    width: 80%;
+    font-size: 45px;
+    line-height: 45px;
+  }
+
+  .sub-text {
+    
+    width: 85%;
+    color: #cfcfcf;
+    font-size: 14px;
+    line-height: 22px;
+    
+  }
+
+  .home-btns {
+    flex-direction: row;
+    width: 100%;
+    gap: 0px 20px;
+  }
+  .telegram-btn {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+  .launchApp-btn-home {
+    padding: 15px 25px;
+
+    font-size: 15px;
+
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 965px) and (max-width: 1150px) {
+  .home-logo{
+    display: inline;
+    height: 40vh;
+    
+    width: 700px;
+  }
+  .heading,
+  .c-ai {
+    width: 90%;
+    font-size: 45px;
+    line-height: 45px;
+  }
+}
